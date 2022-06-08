@@ -1,0 +1,13 @@
+name: regression-prediction
+title: regression-prediction
+username:
+account: ashnumpy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6433265
+bundleId: 5978792
+url: https://ashnumpy.shinyapps.io/regression-prediction/
+when: 1654420526.01831
+lastSyncTime: 1654420526.01832
+asMultiple: FALSE
+asStatic: FALSE
