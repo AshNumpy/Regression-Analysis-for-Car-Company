@@ -5,12 +5,19 @@ library(psych)
 library(zoo)
 library(lmtest)
 library(DAAG)
+
+#-------- INSTALLING GITHUB PACKAGES --------#
+
+# 1. install.packages("devtools")
+# 2. library(devtools)
+# 3. install_github("JohnHendrickx/Perturb")
 library(perturb)
+
 library(fastDummies)
 library(MASS)
 
 #raw data
-data <- read_table("C:/Users/ramaz/Documents/Github/Regression-web-app/Regression-Web-App/data.txt")
+data <- read_table("../data.txt")
 names(data) <- c("y","x1","x2","x3","x4")
 data$x4 <- as.factor(data$x4)
 
